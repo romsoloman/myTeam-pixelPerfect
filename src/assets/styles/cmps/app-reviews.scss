@@ -1,0 +1,52 @@
+.app-reviews{
+    height: 745px;
+    background-color: $secondary-clr3;
+    position: relative;
+    .img4{
+        position: absolute;
+        width: 147px;
+        height: 100px;
+        top: 0px;
+    }
+    .img5{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 1340px;
+        top: 650px;
+    }
+    .reviews-container{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding-top: 140px;
+        .reviews-title{
+            margin: 0 auto 56px;
+            height: 96px;
+            width: 932px;
+            text-align: center;
+            h1{
+                font-size: 48px;
+                color: $primary-clr3;
+                span{color:$secondary-clr1;}
+            }
+        }
+        .reviews-items{
+            height: 313px;
+            .review{
+                p{font-size: 15px; color: $primary-clr3;text-align: center;}
+                .name{
+                    margin: 24px 0;
+                    text-align: center;
+                    h4{color:$secondary-clr1}
+                    p{font-style: italic;font-weight: 100;}
+                }
+                img{
+                    height: 62px;
+                    width: 62px;
+                    border: 2px solid $secondary-clr1;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

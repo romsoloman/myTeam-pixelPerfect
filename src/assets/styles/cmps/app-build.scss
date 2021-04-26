@@ -1,0 +1,52 @@
+.app-build{
+    height: 684px;
+    background-color: $secondary-clr4;
+    position: relative;
+    .img3{
+        position: absolute;
+        height: 244px;
+        width: 200px;
+        top: 440px;
+        left: 1340px;
+    }
+    .build-container{
+        max-width: 1100px;
+        margin: 0 165px;
+        padding-top: 145px;
+        height: 404px;
+        .desc-title{
+            position: relative;
+            height: 144px;
+            width: 445px;
+            margin-right: 125px;
+            .rectangle{
+                top: 0;
+                position: absolute;
+                width: 50px;
+                height: 4px;
+                background-color:$primary-clr2;
+            }
+            h1{
+                padding-top: 54px;
+                font-size: 48px;
+                font-weight: 700;
+                color:$primary-clr3;
+            }
+        }
+        .desc-items{
+            height: 346px;
+            width: 540px;
+            .item{
+                margin-bottom: 32px;
+                height: 94px;
+                img{height: 72px;width: 72px;}
+                .item-desc{
+                    width: 445px;
+                    margin-left: 23px;
+                    h4{font-size: 18px;color: $primary-clr2;margin-bottom: 16px;}
+                    p{font-size: 15px;color: $primary-clr3;}
+                }
+            }
+        }
+    }
+}

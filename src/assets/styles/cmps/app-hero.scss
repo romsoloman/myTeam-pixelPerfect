@@ -1,0 +1,46 @@
+.app-hero{
+    background-color: $primary-clr1;
+    height: 700px;
+    position: relative;
+    .img1{
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        left: -100px;
+        top: 250px;
+    }
+    .img2{
+        position: absolute;
+        height: 100px;
+        width: 300px;
+        left: 917px;
+        top: 600px;
+    }
+    .title{
+        max-width: 1100px;
+        margin: 200px auto 0;
+        height: 200px;
+        .header{
+            width: 500px;
+            height: 100%;
+            font-size: 100px;
+            color: $primary-clr3;
+            margin-right: 90px;
+            span{color:$primary-clr2}
+        }
+        .sub-header{
+            position: relative;
+            .rectangle{
+                top: 0;
+                position: absolute;
+                width:50px;
+                height: 4px;
+                background-color: $secondary-clr1;
+            }
+            width: 445px;
+            font-size: 18px;
+            color:$primary-clr3;
+            align-items: flex-end;
+        }
+    }
+}

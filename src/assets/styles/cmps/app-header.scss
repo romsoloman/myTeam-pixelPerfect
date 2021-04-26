@@ -1,0 +1,19 @@
+.app-header{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 73px 0 0;
+    height: 48px;
+    .nav-items{
+        width: 380px;
+        align-items: flex-end;
+        h4{color: $primary-clr3;font-weight: 400;}
+    }
+    .contact-btn{
+        width: 153px;
+        height: 48px;
+        border-radius: 25px;
+        font-size: 18px;
+        border :2px solid $primary-clr3;
+        background-color: $primary-clr1;
+    }
+}

@@ -1,0 +1,42 @@
+.app-footer{
+    height: 196px;
+    background-color: $secondary-clr5;
+    .footer-container{
+        max-width: 1100px;
+        height: 100px;
+        margin: 0 auto;
+        padding-top: 48px;
+        justify-content: space-between;
+        .nav-items{
+            width: 730px;
+            aside{
+                img{margin-bottom: 25px;}
+                .items{
+                    width: 140px;
+                    justify-content: space-between;
+                    h4{color:$primary-clr3}
+                }
+            }
+            p{
+                font-size: 15px;
+                width: 200px;
+                margin-left: 150px;
+            }
+        }
+        .icons{
+            .social{
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 25px;
+                img{
+                    height: 24px;
+                    width: 24px;
+                    margin-right: 10px;
+                }
+            }
+            .rights{
+                font-size: 15px;
+            }
+        }
+    }
+}
